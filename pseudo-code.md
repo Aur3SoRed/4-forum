@@ -14,8 +14,22 @@ Well, finally we have a common project, a forum. This haven't a specific themati
 
 [X] Do a 'hello world' page
 
-[] Organize a Kanban
+[X] Organize a first Kanban
 
 [] Distribute the work for today's afternoon
 
-[] Do the access, git clone and Kanban for the three
+[X] Do the access, git clone and Kanban for the three
+
+## 8D AFTERNOON
+
+After the first rendez-vous we have a lot of questions, but our max answer it's KISS: keep it simple, stupid! We do the wireframes for having a little structure of the project, it's only a aproximation.
+
+[X] Do wireframes
+
+[] install dependencies
+
+[] Construct first version general server
+
+[] Incorporate middlewares
+
+[] Incorporate logger
