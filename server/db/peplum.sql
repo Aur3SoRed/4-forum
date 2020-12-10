@@ -18,7 +18,6 @@ CREATE TABLE forum (
   review VARCHAR(2000)
 );
 
-
 SELECT * FROM forum WHERE forum.peplum_id = (SELECT peplum.peplum_id FROM peplum WHERE LOWER (peplum."title") LIKE '%hercules%');
 
 SELECT * FROM peplum WHERE LOWER (peplum."title") LIKE '%ben hur%';
