@@ -12,11 +12,10 @@ import jsonResponse from './middlewares/json-response-middleware.js';
 
 // routers
 import healthRouter from './routes/health.js';
-import peplumRouter from './routes/peplum.js';
-import forumRouter from './routes/forum.js';
+import peplumRouter from './routes/thread.js';
 
 const HOST = process.env.HOST || '127.0.0.1';
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5002;
 
 //const server = require('express');
 const server = express();
@@ -33,7 +32,6 @@ server.use(cors());
 //routes
 server.use(healthRouter);
 server.use(peplumRouter);
-server.use(forumRouter);
 
 //server.use(express.static(__dirname + '/client/'));
 
