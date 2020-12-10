@@ -33,3 +33,19 @@ After the first rendez-vous we have a lot of questions, but our max answer it's 
 [] Incorporate middlewares
 
 [] Incorporate logger
+
+## 10D AFTERNOON
+
+After a day for personals things, we have the decission of incorporate a server preworked and follow the system with errors and development.
+
+[] Install dependencies
+
+[] Include server
+
+[] Test server into terminal
+
+[X] Construct first version general server
+
+[X] Incorporate middlewares
+
+[X] Incorporate logger
