@@ -1,3 +1,35 @@
+INSERT INTO thread (title, post_date, description ) VALUES
+('My first post', 14/12/2020, 'Esperemos que salga algo de aquí'),
+('My second post', 15/12/2020, 'Al final salió');
+
+
+
+INSERT INTO answers (thread_id, review) VALUES
+((SELECT thread.thread_id FROM thread WHERE title LIKE '%My first post%'), 'Podeis verme');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 INSERT INTO peplum (title, release, poster, director, actor, actress, countrycode) VALUES
 ('Spartacus', 1960, 'http://annyas.com/images/kubrick-movie-typography/spartacus-one-sheet-movie-poster.jpg', 'Stanley Kubrick', 'Kirk Douglas', 'Jean Simmons', 'USA'),
 ('Quo Vadis', 1951, 'https://www.ultimatemovierankings.com/wp-content/uploads/2017/09/Poster-Quo-Vadis-1951_03.jpg', 'Mervyn LeRoy', 'Peter Ustinov', 'Deborah Kerr', 'USA'),

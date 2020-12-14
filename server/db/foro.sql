@@ -1,3 +1,48 @@
+DROP TABLE IF EXISTS thread CASCADE;
+DROP TABLE IF EXISTS answers CASCADE;
+
+CREATE TABLE thread (
+  thread_id SERIAL PRIMARY KEY,
+  title VARCHAR(150) NOT NULL,
+  post_date VARCHAR,
+  description VARCHAR
+);
+
+CREATE TABLE answers (
+  thread_id INT REFERENCES thread(thread_id),
+  answers_id SERIAL PRIMARY KEY,
+  review TEXT NOT NULL
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DROP TABLE IF EXISTS peplum CASCADE;
 DROP TABLE IF EXISTS forum CASCADE;
 

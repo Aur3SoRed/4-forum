@@ -51,3 +51,11 @@ After a day for personals things, we have the decission of incorporate a server 
 [X] Incorporate logger
 
 [] Construct one model for general discussions
+
+## 14D
+
+Bussy days for us... Right now we introduce into SQL experience, only one have worked before with this, well, we'll do it simple!
+
+[] Construct tables and insert data
+
+[] Construct one model for general discussions (in SQL)
